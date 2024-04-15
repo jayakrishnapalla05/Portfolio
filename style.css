@@ -306,6 +306,12 @@ nav a h1 {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
+.project-content1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 50px 0px;
+}
 .project-text {
   width: 400px;
   border-radius: 10px;
@@ -472,16 +478,24 @@ nav{
 }
 .projects {
   padding: 0px 30px;
-  min-height: 50vh;
+  min-height: 10vh;
   letter-spacing: 1px;
   line-height: 1.4;
   margin-bottom: 100px;
 }
+
 .project-content {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 50px;
 }
+.project-content1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding:50px 0px;
+}
+
 .contact {
   padding: 0px 30px;
   min-height: 50vh;
